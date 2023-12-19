@@ -14,11 +14,11 @@ const Footer = () => {
   }, [year]);
 
   return (
-    <div className="flex  flex-col w-full justify-center items-center text-black dark:text-white border-t-2 dark:border-slate-50 border-black mt-4">
+    <div className="flex  flex-col w-full justify-center items-center text-black dark:text-white border-t-2 dark:border-slate-50 border-black mt-5">
       <div className="flex flex-col sm:flex-row w-full py-6 justify-evenly text-center flex-auto ">
         <div className="grid grid-cols-1 sm:grid-cols-3 items-center">
           <div className=" hidden sm:flex  justify-center items-center w-ful">
-            <img src={html5} alt="logo" className="mx-auto w-20 h-20" />
+            Solomon Tsegaye
           </div>
           <div>
             <ul className=" flex flex-col  justify-center items-center  w-full ">

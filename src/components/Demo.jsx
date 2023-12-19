@@ -24,7 +24,7 @@ const Demo = () => {
           <img
             src={sifaskill}
             alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
+            className="h-60 w-60 hover:scale-110 rounded-md object-cover"
           />
           <div className="flex justify-between items-center">
             <a
@@ -45,7 +45,7 @@ const Demo = () => {
           <img
             src={techversity}
             alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
+            className="h-60 w-60 hover:scale-110 rounded-md object-cover"
           />
           <div className="flex justify-between items-center">
             <a
@@ -66,11 +66,11 @@ const Demo = () => {
           <img
             src={myprofile}
             alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
+            className="h-60 w-60 hover:scale-110 rounded-md object-cover"
           />
           <div className="flex justify-between items-center">
             <a
-              href="https://myprofile-zeta-seven.vercel.app/"
+              href="https://myprofile-solomonts-git.vercel.app/"
               className="rounded-lg p-4 m-4 text-black dark:text-white cursor-pointer bg-sky-400 dark:bg-sky-500 hover:scale-105"
             >
               Demo
