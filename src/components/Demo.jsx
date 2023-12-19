@@ -1,11 +1,7 @@
 import React from "react";
 import sifaskill from "../images/skills/sifaskill.png";
 import techversity from "../images/skills/techversity.png";
-import css from "../images/skills/css.png";
-import js from "../images/skills/javascript.png";
-import reactbs from "../images/skills/react-bootstrap.png";
-import reactjs from "../images/skills/React-icon.png";
-import next from "../images/skills/Nextjs-logo.png";
+import myprofile from "../images/skills/myprofile.png";
 import { Link } from "react-scroll";
 
 const Demo = () => {
@@ -68,82 +64,19 @@ const Demo = () => {
         </div>
         <div className="shadow-md dark:shadow-white p-4">
           <img
-            src={sifaskill}
+            src={myprofile}
             alt=""
             className="h-60 w-60 hover:scale-110 rounded-md"
           />
           <div className="flex justify-between items-center">
             <a
-              href="https://skill-train-solomonts-git.vercel.app/"
+              href="https://myprofile-zeta-seven.vercel.app/"
               className="rounded-lg p-4 m-4 text-black dark:text-white cursor-pointer bg-sky-400 dark:bg-sky-500 hover:scale-105"
             >
               Demo
             </a>
             <a
-              href="https://github.com/solomonts-git/skill-train"
-              className="rounded-lg px-6 py-4 m-4 text-black dark:text-white cursor-pointer bg-orange-400 dark:bg-orange-500 hover:scale-105"
-            >
-              Git
-            </a>
-          </div>
-        </div>
-        <div className="shadow-md dark:shadow-white p-4">
-          <img
-            src={sifaskill}
-            alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              href="https://skill-train-solomonts-git.vercel.app/"
-              className="rounded-lg p-4 m-4 text-black dark:text-white cursor-pointer bg-sky-400 dark:bg-sky-500 hover:scale-105"
-            >
-              Demo
-            </a>
-            <a
-              href="https://github.com/solomonts-git/skill-train"
-              className="rounded-lg px-6 py-4 m-4 text-black dark:text-white cursor-pointer bg-orange-400 dark:bg-orange-500 hover:scale-105"
-            >
-              Git
-            </a>
-          </div>
-        </div>
-        <div className="shadow-md dark:shadow-white p-4">
-          <img
-            src={sifaskill}
-            alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              href="https://skill-train-solomonts-git.vercel.app/"
-              className="rounded-lg p-4 m-4 text-black dark:text-white cursor-pointer bg-sky-400 dark:bg-sky-500 hover:scale-105"
-            >
-              Demo
-            </a>
-            <a
-              href="https://github.com/solomonts-git/skill-train"
-              className="rounded-lg px-6 py-4 m-4 text-black dark:text-white cursor-pointer bg-orange-400 dark:bg-orange-500 hover:scale-105"
-            >
-              Git
-            </a>
-          </div>
-        </div>
-        <div className="shadow-md dark:shadow-white p-4">
-          <img
-            src={sifaskill}
-            alt=""
-            className="h-60 w-60 hover:scale-110 rounded-md"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              href="https://skill-train-solomonts-git.vercel.app/"
-              className="rounded-lg p-4 m-4 text-black dark:text-white cursor-pointer bg-sky-400 dark:bg-sky-500 hover:scale-105"
-            >
-              Demo
-            </a>
-            <a
-              href="https://github.com/solomonts-git/skill-train"
+              href="https://github.com/solomonts-git/myprofile"
               className="rounded-lg px-6 py-4 m-4 text-black dark:text-white cursor-pointer bg-orange-400 dark:bg-orange-500 hover:scale-105"
             >
               Git
@@ -151,7 +84,7 @@ const Demo = () => {
           </div>
         </div>
       </div>
-      <hr className="border-4 border-black dark:border-slate-100 w-1/2 shadow-md mx-auto rounded-md" />
+      <hr className="border-4 border-black dark:border-slate-100 w-1/2 shadow-md mx-auto rounded-md my-2" />
     </div>
   );
 };
